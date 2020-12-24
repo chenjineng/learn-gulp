@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+  @include('./head.html', {title: 'gulp学习之路'})
+</head>
+<body>
+  @include('./header.html', {title: '传递参数', status: 'active'})
+  <div class="box">
+    <img src="./images/avator.jpg" alt="" class="avator">
+    <h1>Learn Gulp!</h1>
+  </div>
+  @include('./footer.html')
+</body>
+</html>
