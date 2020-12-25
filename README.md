@@ -1,4 +1,6 @@
-### 开发环境运行Gulp脚本  
+### 安装依赖
+`npm install`  
+### 开发环境构建  
 `gulp dev`  
-### 生产环境运行Gulp脚本  
+### 生产环境构建  
 `gulp build`  
